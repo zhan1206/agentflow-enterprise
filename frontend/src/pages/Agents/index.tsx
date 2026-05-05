@@ -1,5 +1,3 @@
-export { Agents } from './index';
-
 import React from 'react';
 import { Card, Table, Button, Space, Tag, Modal, Form, Input, Select, message } from 'antd';
 import { PlusOutlined, ReloadOutlined, PlayCircleOutlined, StopOutlined } from '@ant-design/icons';

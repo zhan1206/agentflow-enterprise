@@ -1,5 +1,3 @@
-export { Observability } from './index';
-
 import React from 'react';
 import { Card, Row, Col, Typography, Statistic, Empty } from 'antd';
 import { DashboardOutlined, AlertOutlined, ClockCircleOutlined } from '@ant-design/icons';

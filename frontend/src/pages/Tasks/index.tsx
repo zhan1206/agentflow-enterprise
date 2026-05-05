@@ -1,5 +1,3 @@
-export { Tasks } from './index';
-
 import React from 'react';
 import { Card, Table, Button, Space, Tag, Modal, Form, Input, Select, message, Progress } from 'antd';
 import { PlusOutlined, PlayCircleOutlined, StopOutlined, EyeOutlined } from '@ant-design/icons';

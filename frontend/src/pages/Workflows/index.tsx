@@ -1,5 +1,3 @@
-export { Workflows } from './index';
-
 import React from 'react';
 import { Card, Button, Space, message, Empty, Row, Col, Typography } from 'antd';
 import { PlusOutlined, FolderOpenOutlined } from '@ant-design/icons';

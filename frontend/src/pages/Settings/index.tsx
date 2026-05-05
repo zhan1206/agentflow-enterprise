@@ -1,5 +1,3 @@
-export { Settings } from './index';
-
 import React from 'react';
 import { Card, Form, Input, Switch, Button, message, Divider, Typography } from 'antd';
 
