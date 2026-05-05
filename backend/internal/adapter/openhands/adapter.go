@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/adapter/base"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/adapter/base"
 )
 
 // Adapter implements the OpenHands adapter

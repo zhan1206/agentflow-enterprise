@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/core/sync"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/core/sync"
 	"go.uber.org/zap"
 )
 

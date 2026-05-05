@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/core/scheduler"
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/core/sync"
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/observability/tracing"
-	"github.com/agentflow-enterprise/agentflow-enterprise/backend/internal/security/auth"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/core/scheduler"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/core/sync"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/observability/tracing"
+	"github.com/zhan1206/agentflow-enterprise/backend/internal/security/auth"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

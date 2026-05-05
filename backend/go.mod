@@ -1,4 +1,4 @@
-module github.com/agentflow-enterprise/agentflow-enterprise/backend
+module github.com/zhan1206/agentflow-enterprise/backend
 
 go 1.21
 
