@@ -2,6 +2,7 @@
 package openhands
 
 import (
+	"bytes"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -89,8 +90,8 @@ func (a *Adapter) Execute(ctx context.Context, agentID string, task base.TaskReq
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("request failed with status %d: %s", resp.StatusCode, string(body))
+		respBody, _ := io.ReadAll(resp.Body)
+		return nil, fmt.Errorf("request failed with status %d: %s", resp.StatusCode, string(respBody))
 	}
 
 	// Parse response
@@ -217,6 +218,3 @@ func (a *Adapter) Close() error {
 	a.httpClient.CloseIdleConnections()
 	return nil
 }
-
-// Note: bytes package import needed
-import "bytes"
